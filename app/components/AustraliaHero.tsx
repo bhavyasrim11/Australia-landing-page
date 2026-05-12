@@ -130,7 +130,7 @@ if (form.resume) {
             {/* stats */}
             <div className="grid grid-cols-3 gap-6 max-w-lg">
               {[
-                ["95%", "Accuracy"],
+                ["100%", "Accuracy"],
                 ["60 sec", "Completion time"],
                 ["189 · 190 · 491", "Skilled visas"],
               ].map(([value, label]) => (
