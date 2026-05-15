@@ -120,62 +120,52 @@ if (form.resume) {
   {/* UNDERLINE */}
   <div className="mx-auto mt-6 h-[3px] w-24 rounded-full bg-gradient-to-r from-[#0A2A66] via-[#B0B7C3] to-[#D80027]" />
 </h1>
-              <p className="mt-5 text-lg text-slate-600 max-w-xl">
-                A quick, points-based check designed to give you
-                <span className="font-medium text-slate-800"> real clarity</span>
-                — not sales talk.
-              </p>
-            </div>
-
-
-            {/* value cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl">
-              {[
-                ["Points-based check", "Aligned with official migration rules"],
-                ["Occupation scoring", "Age & experience weighted"],
-                ["Family benefits", "Include spouse & children"],
-                ["Healthcare access", "Medicare after PR"],
-              ].map(([title, desc]) => (
-                <div
-                  key={title}
-                  className="rounded-lg border p-4 hover:border-slate-400 transition"
-                >
-                  <p className="font-medium text-slate-900">{title}</p>
-                  <p className="mt-1 text-sm text-slate-500">{desc}</p>
-                </div>
-              ))}
-            </div>
-
-            
-            <div className="mt-6 max-w-xl rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-6">
-              <p className="text-sm font-semibold text-slate-900 mb-4">
-                Why professionals trust our assessment
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
-                <div className="flex items-start gap-3">
-                  <span className="text-xl">🧠</span>
-                  <p className="text-slate-600">
-                    Logic built strictly on official DHA points matrix
-                  </p>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <span className="text-xl">🔒</span>
-                  <p className="text-slate-600">
-                    Your data is never shared or sold
-                  </p>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <span className="text-xl">📊</span>
-                  <p className="text-slate-600">
-                    Instant scoring — no consultant bias
-                  </p>
-                </div>
               </div>
-            </div>{/* APPLY NOW CTA */}
-<div className="mt-8 flex justify-center">
+  {/* AUSTRALIA PR CONTENT */}
+<div className="mt-8 pr-6 space-y-8">
+
+  {/* TOP CONTENT */}
+  <div>
+    <p className="text-lg text-slate-600 leading-9">
+      Australia is one of the top destinations for skilled professionals
+      seeking better career growth, high salaries, quality healthcare,
+      and long-term settlement opportunities for their families.
+    </p>
+  </div>
+
+  {/* SECTION 1 */}
+  <div>
+    <h3 className="text-2xl font-bold text-black mb-3">
+      Skilled Migration Program
+    </h3>
+
+    <p className="text-lg text-slate-600 leading-9">
+      Australia PR is mainly based on a points-tested skilled migration
+      system where applicants are evaluated based on age, education,
+      occupation, and work experience. Eligible professionals can apply
+      for Permanent Residency through various skilled visa pathways.
+    </p>
+  </div>
+
+  {/* SECTION 2 */}
+  <div>
+    <h3 className="text-2xl font-bold text-black mb-3">
+      Benefits of Australia PR
+    </h3>
+
+    <p className="text-lg text-slate-600 leading-9">
+  PR holders can live, work, and study anywhere in Australia while
+  accessing healthcare benefits, better job opportunities, and a
+  pathway towards Australian citizenship for themselves and their
+  family members. Australia also offers a safe environment,
+  excellent public infrastructure, and globally recognized education
+  systems that help families build a secure and successful future.
+</p>
+  </div>
+
+</div>
+            {/* APPLY NOW CTA */}
+<div className="mt-5 flex justify-start">
   <button
   onClick={() => {
     const el = document.getElementById("australia-pr-form");
