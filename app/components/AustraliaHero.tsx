@@ -127,21 +127,6 @@ if (form.resume) {
               </p>
             </div>
 
-            {/* stats */}
-            <div className="grid grid-cols-3 gap-6 max-w-lg">
-              {[
-                ["100%", "Accuracy"],
-                ["60 sec", "Completion time"],
-                ["189 · 190 · 491", "Skilled visas"],
-              ].map(([value, label]) => (
-                <div key={label}>
-                  <p className="text-2xl font-semibold text-slate-900">
-                    {value}
-                  </p>
-                  <p className="text-xs text-slate-500">{label}</p>
-                </div>
-              ))}
-            </div>
 
             {/* value cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl">
