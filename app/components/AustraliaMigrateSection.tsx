@@ -35,15 +35,10 @@ const AustraliaMigrateSection: React.FC = () => {
   return (
     <section className="w-full bg-white pt-0 pb-20">
       <div className="max-w-7xl mx-auto px-6">
-<h2
-  className="text-4xl md:text-5xl font-bold text-center mb-10
-  bg-gradient-to-r from-indigo-600 via-orange-500 to-pink-500
-  bg-clip-text text-transparent
-  leading-snug pb-2"
->
-  Migrate to Australia from India
+<h2 className="text-4xl md:text-5xl font-bold text-center mb-10 leading-snug pb-2">
+  <span className="text-black">Migrate to Australia</span>{" "}
+  <span className="text-[#F97316]">from India</span>
 </h2>
-
 
         {/* ===== INTRO CONTENT (CLEAN FIX – NO INLINE STYLES) ===== */}
 <div className="text-base md:text-lg leading-relaxed space-y-6 mb-12 text-gray-700">
@@ -52,31 +47,27 @@ const AustraliaMigrateSection: React.FC = () => {
 
 
 
-          <p>
-            Australia has become one of the{" "}
-            <strong>world’s most desired destinations</strong>{" "}
-            for immigrants, known for its welcoming culture, vibrant cities,
-            and excellent quality of life. Indians can{" "}
-            <strong>migrate to Australia permanently</strong> through a
-            well-structured PR visa program that supports skilled professionals
-            and families.
-          </p>
+         <p>
+  Australia has become one of the world’s most desired destinations
+  for immigrants, known for its welcoming culture, vibrant cities,
+  and excellent quality of life. Indians can migrate to Australia
+  permanently through a well-structured PR visa program that supports
+  skilled professionals and families.
+</p>
 
-          <p>
-            An <strong>Australian PR visa</strong> allows you to{" "}
-            <strong>live, work, study, or start a business</strong> anywhere in
-            the country. With strong economic growth, transparent immigration
-            policies, and global career exposure, Australia offers long-term
-            stability and security.
-          </p>
+<p>
+  An Australian PR visa allows you to live, work, study, or start a
+  business anywhere in the country. With strong economic growth,
+  transparent immigration policies, and global career exposure,
+  Australia offers long-term stability and security.
+</p>
 
-          <p>
-            Australia is known for its{" "}
-            <strong>diverse and multicultural society</strong>, family-friendly
-            policies, and excellent healthcare and education systems. Since{" "}
-            <strong>English is the primary language</strong>, migrants from India
-            find it easier to adapt and settle comfortably with their families.
-          </p>
+<p>
+  Australia is known for its diverse and multicultural society,
+  family-friendly policies, and excellent healthcare and education
+  systems. Since English is the primary language, migrants from India
+  find it easier to adapt and settle comfortably with their families.
+</p>
 
 <p className="italic text-sm md:text-base text-[#0B2C4D]">
 
